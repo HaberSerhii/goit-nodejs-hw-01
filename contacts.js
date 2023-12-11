@@ -1,4 +1,4 @@
-const { Command } = require("commander");
+import { Command } from "commander";
 const program = new Command();
 program
   .option("-a, --action <type>", "choose action")
