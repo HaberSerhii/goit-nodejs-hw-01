@@ -1,8 +1,6 @@
 import * as contactsService from "./contacts.js";
-import { program } from "commander";
-const { Command } = require("commander");
+import { Command } from "commander";
 const program = new Command();
-const argv = require("yargs").argv;
 
 program
   .option("-a, --action <type>", "choose action")
